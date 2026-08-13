@@ -1,0 +1,25 @@
+schema_version = "1.3"
+
+[task]
+name = "hurix/dynamic-soaring-control"
+description = "Determine the eigenvalues and feedback matrix of a fractional-order UAV dynamic soaring model."
+
+[metadata]
+author_name = "Bharath Swaminathan"
+author_email = "bharathswnathan@gmail.com"
+author_organization = "Hurix"
+difficulty_explanation = "Nonlinear steady-state solution, fractional-order linearization, eigenvalue analysis, and feedback-gain determination."
+solution_explanation = "See solution_explanation.md"
+verification_explanation = "Independent numerical verification of the generated results."
+category = "aerospace-engineering"
+tags = ["dynamic-soaring", "flight-dynamics", "controls", "fractional-calculus"]
+expert_time_estimate_hours = 1.5
+
+[verifier]
+timeout_sec = 900.0
+
+[agent]
+timeout_sec = 900.0
+
+[environment]
+build_timeout_sec = 600.0
