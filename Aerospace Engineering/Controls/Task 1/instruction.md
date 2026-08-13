@@ -1,7 +1,0 @@
-Consider a dynamic soaring scenario where a UAV is in a powerless downwind descent. There is linear wind, with wind shear $\beta$, along the positive direction of the x-axis. The coordinate system used is a left-handed coordinate system.
-
-It is desired to know the eigenvalues of this system to determine the nature of stability. Use the standard 3 DOF equations of motion for a point-mass object in a wind-relative reference frame. Also needed is the 1x3 feedback matrix that will shift the real part of the most stable pole to $-1$ using only the lift coefficient. The change in the imaginary parts are not of interest. The azimuth is taken w.r.t. the $y$-axis in the clockwise direction. The eigenvalues of interest only correspond to the states $V,\gamma,\psi$. The control inputs are $C_L, \mu, Thrust$.
-
-The linearization of the equations for determining the eigenvalues is done w.r.t. the fractional order $\alpha=0.95$. The Riemann-Liouville fractional derivatives are taken for linearization. The environment properties are given in the first sheet of the excel file Properties.xlsx while the UAV properties are given in the second sheet of the same excel file. Report your answers correct to $4$ decimal places.
-
-Give your output as a pdf file with a table listing the "Mode Number" and the "Eigenvalues" corresponding to that mode. Below the table, give the $1x3$ feedback matrix.
