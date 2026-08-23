@@ -29,7 +29,7 @@ cd2 = mp.mpf(str(param(uav, "Drag Coefficient (CD2)")))
 T = mp.mpf(str(param(uav, "Thrust (T)")))
 
 CD = cd0 + cd1 * CL + cd2 * CL**2
-psi = eval(str(dict(ws.iter_rows(values_only=True))["Azimuth (ψ)"]).replace("ϖ", "mp.pi").replace("π", "mp.pi"), {"mp": mp})
+psi = eval(str(param(uav, "Azimuth (ψ)")).replace("ϖ", "mp.pi").replace("π", "mp.pi"), {"mp": mp})
 
 def E(V, gam, mu):
     e1 = (
