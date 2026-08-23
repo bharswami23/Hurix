@@ -263,7 +263,7 @@ out.mkdir(parents=True, exist_ok=True)
 wb_out = Workbook()
 ws = wb_out.active
 ws.title = "Results"
-ws.append(["Mode number", "Real Part of Eigenvalue", "Imaginary Part of Eigenvalue"])
+ws.append(["Mode Number", "Real Part of Eigenvalue", "Imaginary Part of Eigenvalue"])
 
 for i, z in enumerate(lam, 1):
     ws.append([i, round(float(mp.re(z)), 6), round(float(mp.im(z)), 6)])
