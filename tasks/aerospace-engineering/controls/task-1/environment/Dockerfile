@@ -1,6 +1,6 @@
 FROM python:3.12-slim
 
-RUN pip install numpy scipy openpyxl mpmath
+RUN pip install openpyxl==3.1.5 mpmath==1.3.0
 
 WORKDIR /workspace
 
