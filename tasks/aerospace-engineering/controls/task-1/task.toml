@@ -8,12 +8,31 @@ description = "Determine the eigenvalues and feedback matrix of a fractional-ord
 author_name = "Bharath Swaminathan"
 author_email = "bharathswnathan@gmail.com"
 author_organization = "Hurix"
+domain = "aerospace-engineering"
+subdomain = "flight-dynamics-and-controls"
+workflow_type = "engineering-analysis"
+task_type = "numerical-analysis"
+skills = [
+    "flight dynamics",
+    "dynamic soaring",
+    "fractional calculus",
+    "linearization",
+    "eigenvalue analysis",
+    "feedback control",
+    "numerical computation"
+]
+tool_types = [
+    "Python",
+    "numerical simulation",
+    "spreadsheet"
+]
+estimated_step_count = 8
+expert_time_estimate_hours = 1.5
 difficulty_explanation = "Nonlinear steady-state solution, fractional-order linearization, eigenvalue analysis, and feedback-gain determination."
 solution_explanation = "See solution_explanation.md"
 verification_explanation = "Independent numerical verification of the generated results."
 category = "aerospace-engineering"
 tags = ["dynamic-soaring", "flight-dynamics", "controls", "fractional-calculus"]
-expert_time_estimate_hours = 1.5
 
 [verifier]
 timeout_sec = 900.0
