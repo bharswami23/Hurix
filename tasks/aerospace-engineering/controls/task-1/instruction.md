@@ -17,4 +17,4 @@ Also determine the three feedback coefficients that shift the real part of the m
 
 Use fractional order $\alpha=0.95$ and Riemann-Liouville fractional derivatives (Podlubny, 1999) for the linearization. Environment properties are in the first sheet of `workspace/data/Parameters.xlsx`; UAV properties are in the second sheet. Report results to 6 decimal places.
 
-Create `/logs/agent/results.xlsx` with a table containing "Mode Number", "Real Part of Eigenvalue", and "Imaginary Part of Eigenvalue" in A1:C4. Below it, provide the three feedback coefficients under the heading "Feedback Matrix:" in A6:C7.
+Create `/logs/agent/results.xlsx` with a table containing "Mode Number", "Real Part of Eigenvalue", and "Imaginary Part of Eigenvalue" in A1:C4. Below it, provide the three feedback coefficients from A6:C7.
