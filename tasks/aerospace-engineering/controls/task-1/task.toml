@@ -27,12 +27,14 @@ tool_types = [
     "spreadsheet"
 ]
 estimated_step_count = 8
-expert_time_estimate_hours = 1.5
+expected_expert_time = 1.5 hours
 difficulty_explanation = "Nonlinear steady-state solution, fractional-order linearization, eigenvalue analysis, and feedback-gain determination."
 solution_explanation = "See solution_explanation.md"
 verification_explanation = "Independent numerical verification of the generated results."
 category = "aerospace-engineering"
 tags = ["dynamic-soaring", "flight-dynamics", "controls", "fractional-calculus"]
+references = ["Bharath Swaminathan (2023). Stability Aspects of Dynamic Soaring. IIT Madras. http://hdl.handle.net/10603/613075", "
+"Podlubny, Igor, Mathematics in Science and Engineering, Appendix - Tables of Fractional Derivatives, Elsevier, Volume 198, 1999, Pages 309-311, ISSN 0076-5392, ISBN 9780125588409, https://doi.org/10.1016/S0076-5392(99)80030-7. (https://www.sciencedirect.com/science/article/pii/S0076539299800307)"]
 
 [verifier]
 timeout_sec = 900.0
